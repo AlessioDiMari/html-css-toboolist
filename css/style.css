@@ -1,0 +1,33 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+/* stilizzazione body */
+body{
+    margin: 0;
+    background-color: rgba(240, 240, 240, 0.974)
+}
+/* fine stilizzazione body */
+
+/* stilizzazione div container */
+.container{
+    background-color: white;
+    margin: 40px 250px 20px;
+}
+/* fine stilizzazione div container */
+
+
+/* stilizzazione header */
+header{
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: white;
+
+}
+img{
+    vertical-align: middle;
+}
+h1{
+    display: inline;
+}
+/* fine stilizzazione header */
