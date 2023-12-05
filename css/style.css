@@ -44,7 +44,7 @@ input{
     padding: 5px 10px;
     border: 2px solid;
 }
-.task{
+.addtask{
     background-color: rgb(71,173,241);
     color: white;
     border-color: transparent;
@@ -53,8 +53,11 @@ input{
     background-color: white;
     color: rgb(156,159,164);
     border-color: rgb(156,159,164);
-}
+}   
 /* fine stilizzazione navbar */
+
+
+
 
 
 /* stilizzazione secondo div container */
@@ -62,5 +65,76 @@ input{
 .container2{
     padding: 20px 50px;
 }
+
+.nome-section{
+    font-size: 125%;
+}
+
+/* stilizzazione sezioni */
+
+section{
+    padding: 10px 0;
+}
+
+/* fine stilizzazione sezioni */
+
+/* stilizzazione puntatori */
+
+.check{
+    font-weight: bold;
+    font-size: 10px;
+    display: inline-block;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+.yes{
+    color: limegreen;
+    border-color: limegreen;
+}
+.no{
+    color: red;
+    border-color: red;
+}
+
+/* fine stilizzazione puntatori */
+
+/* stilizzazione etichette */
+
+.nome-task{
+    padding: 10px 0px;
+}
+.etichetta{
+    font-size: 75%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+.etichetta.edit{    
+    background-color: rgb(71,173,241);
+}
+.etichetta.goal{
+    background-color: rgb(156,114,228);
+}
+.etichetta.recr{
+    background-color: rgb(100,192,169);
+}
+.etichetta.mobile{
+    background-color: rgb(242,158,51);
+}
+.etichetta.web{
+    background-color: rgb(216,99,161);
+}
+.etichetta.sales{
+    background-color: rgb(176,201,38);
+}
+
+
+/* fine stilizzazione etichette */
+
 
 /* fine stilizzazione secondo div container */
