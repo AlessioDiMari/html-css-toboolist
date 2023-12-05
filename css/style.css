@@ -9,6 +9,7 @@ body{
 }
 /* fine stilizzazione body */
 
+
 /* stilizzazione div container */
 .container{
     background-color: white;
@@ -31,3 +32,35 @@ h1{
     display: inline;
 }
 /* fine stilizzazione header */
+
+
+/* stilizzazione navbar */
+nav{
+    padding: 20px 50px;
+    border: 2px solid rgba(240, 240, 240, 0.974);
+}
+input{
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 2px solid;
+}
+.task{
+    background-color: rgb(71,173,241);
+    color: white;
+    border-color: transparent;
+}
+.section{
+    background-color: white;
+    color: rgb(156,159,164);
+    border-color: rgb(156,159,164);
+}
+/* fine stilizzazione navbar */
+
+
+/* stilizzazione secondo div container */
+
+.container2{
+    padding: 20px 50px;
+}
+
+/* fine stilizzazione secondo div container */
